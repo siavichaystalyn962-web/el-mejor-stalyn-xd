@@ -2468,6 +2468,7 @@ function playRotxHubIntro()
     introSound.Volume = 0.8
     introSound.PlaybackSpeed = 1
     introSound.Looped = false
+    introSound.Parent = intro
     introSound.TimePosition = 20
 
     local aura = Instance.new("Frame", intro)
